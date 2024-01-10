@@ -1,15 +1,11 @@
 {
-    "name": "docs",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "name": "@repo/docs",
+    "version": "0.0.0",
+    "private": true,
     "scripts": {
         "dev": "storybook dev -p 6006 --no-open",
         "build": "storybook build"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "@storybook/addon-essentials": "^7.6.7",
         "@storybook/addon-interactions": "^7.6.7",

@@ -2,7 +2,12 @@
     "private": true,
     "scripts": {
         "format": "prettier . --write",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "build": "turbo build",
+        "lint": "turbo lint",
+        "dev": "turbo dev",
+        "clean": "turbo clean",
+        "test": "turbo test"
     },
     "devDependencies": {
         "@commitlint/cli": "^18.4.4",

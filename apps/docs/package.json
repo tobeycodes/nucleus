@@ -6,6 +6,9 @@
     "build": "storybook build",
     "dev": "storybook dev -p 6006 --no-open"
   },
+  "dependencies": {
+    "@repo/ui": "workspace:^"
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",

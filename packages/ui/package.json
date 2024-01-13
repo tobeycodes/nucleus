@@ -1,5 +1,13 @@
 {
   "name": "@repo/ui",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "exports": {
+    "./components/button": "./src/components/button/button.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "react": "^18.2.0",
+    "typescript": "^5"
+  }
 }

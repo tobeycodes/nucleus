@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "storybook build",
+    "chromatic": "chromatic --build-script-name=build",
     "dev": "storybook dev -p 6006 --no-open"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "@storybook/react": "^7.6.7",
     "@storybook/react-vite": "^7.6.7",
     "@storybook/test": "^7.6.7",
+    "chromatic": "^10.2.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

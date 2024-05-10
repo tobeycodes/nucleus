@@ -10,7 +10,7 @@
     "test": "turbo test"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.4",
+    "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^18.4.4",
     "@vercel/style-guide": "^5.1.0",
     "husky": "^8.0.3",
